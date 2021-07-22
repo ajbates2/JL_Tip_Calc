@@ -23,23 +23,25 @@ export default function MainForm(props) {
 				type='text'
 				name='togoCharged'
 				id='togoCharged'
+				required
 			/>
 			<label>To-Go Cash</label>
 			<input
 				type='text'
 				name='togoCash'
 				id='togoCash'
+				required
 			/>
 			<label>Number of Beertenders Working</label>
 			<input
-				type='number'
+				type='text'
 				name='beertenders'
 				id='beertenders'
                 required
 			/>
 			<label>Number of Cooks Working</label>
 			<input
-				type='number'
+				type='text'
 				name='cooks'
 				id='cooks'
                 required

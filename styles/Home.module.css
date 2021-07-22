@@ -31,6 +31,7 @@
 .form input {
   grid-column: 2;
   margin: 0.2rem;
+  text-align: center;
 }
 
 .form button {
